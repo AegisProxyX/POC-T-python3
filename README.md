@@ -4,8 +4,6 @@
 
 ## 安装与启动
 
-建议解压到新目录，放入自己的 `script/mac.py` 和 `1.txt`。原脚本、目标文件和扫描结果请保留。
-
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -47,12 +45,4 @@ python POC-T.py -T -t 10 -m script/mac.py -f 1.txt --quiet-tls-warnings
 
 `data/` 中的字典和User-Agent文件、`requirements*.txt`、证书文件、`toolkit.conf` 属于运行或安装所需，不应按文档清理。`output/` 是扫描结果目录。
 
-`tests/` 保留离线自检代码，需要时可运行：
 
-```bash
-python -B tests/test_python3.py
-python -B tests/test_shutdown.py
-python -B tests/test_stability.py
-python -B tests/test_progress.py
-python -B tests/test_final_review.py
-```
