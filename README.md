@@ -1,4 +1,4 @@
-# Bayonet Python 3 使用说明
+# POC-T Python 3 使用说明
 
 版本：1.0.3-py3-cn。基于 Bayonet / [POC-T](https://github.com/Xyntax/POC-T/) 修改，保留原作者信息。
 
