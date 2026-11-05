@@ -5,8 +5,8 @@
 auto = """
 
 # help
--h;powered by syst1m <1990758989@qq.com>
---help;powered by syst1m <1990758989@qq.com>
+-h;powered by syst1m <123456@qq.com>
+--help;powered by syst1m <123456@qq.com>
 
 # version
 -v;1.
