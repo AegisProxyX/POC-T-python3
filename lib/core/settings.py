@@ -6,9 +6,9 @@ import os
 import subprocess
 
 VERSION = '1.0.3-py3-cn'
-PROJECT = "Bayonet"
+PROJECT = "POC-T"
 AUTHOR = 'syst1m'
-MAIL = '1990758989@qq.com'
+MAIL = '123456@qq.com'
 PLATFORM = os.name
 IS_WIN = subprocess._mswindows
 
